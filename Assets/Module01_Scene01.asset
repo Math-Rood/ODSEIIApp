@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a46fc64c2a68b5e49927a069244b4ef0, type: 3}
+  m_Name: Module01_Scene01
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Carlos
+    dialogueText: "Ei, voc\xEA viu o novo projeto da IA? Parece que tem um bug \xE9tico
+      s\xE9rio..."
+    eyesSprite: {fileID: 0}
+    mouthSprite: {fileID: 0}
+    choices: []
+  - characterName: Karen
+    dialogueText: "O c\xF3digo que eles liberaram vaza dados pessoais sem aviso."
+    eyesSprite: {fileID: 0}
+    mouthSprite: {fileID: 0}
+    choices:
+    - choiceText: Falar a Verdade
+      moralPointsChange: 10
+      nextLineIndex: 2
+    - choiceText: Fazer Piada
+      moralPointsChange: 0
+      nextLineIndex: 4
+  - characterName: Carlos
+    dialogueText: Uau, que corajoso. Isso pode dar um problema enorme.
+    eyesSprite: {fileID: 0}
+    mouthSprite: {fileID: 0}
+    choices: []
+  - characterName: Karen
+    dialogueText: "Acho que a gente deveria reportar, mas \xE9 arriscado..."
+    eyesSprite: {fileID: 0}
+    mouthSprite: {fileID: 0}
+    choices: []
+  - characterName: Karen
+    dialogueText: "N\xE3o \xE9 hora pra piada, o assunto \xE9 s\xE9rio."
+    eyesSprite: {fileID: 0}
+    mouthSprite: {fileID: 0}
+    choices: []
