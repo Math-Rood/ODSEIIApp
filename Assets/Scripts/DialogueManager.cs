@@ -119,7 +119,7 @@ public class DialogueManager : MonoBehaviour
             {
                 // Cria um novo botão a partir do prefab
                 Button newChoiceButton = Instantiate(choiceButtonPrefab, choicesPanel.transform);
-                newChoiceButton.GetComponentInChildren<Text>().text = choice.choiceText;
+                newChoiceButton.GetComponentInChildren<TextMeshProUGUI>().text = choice.choiceText;
                 
                 // Adiciona o listener que chama MakeChoice com os dados específicos
                 newChoiceButton.onClick.AddListener(() => MakeChoice(choice.moralPointsChange, choice.nextLineIndex));
